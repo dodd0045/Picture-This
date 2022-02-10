@@ -35,6 +35,16 @@ img {
 
 @media (min-width: 960px) {
   .header {
+    max-width: fit-content;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media (min-width: 960px) {
+    .header {
+      
+      margin: auto;
+    }
+  
+}
+
 }
